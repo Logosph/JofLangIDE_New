@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>883</width>
-    <height>564</height>
+    <width>864</width>
+    <height>561</height>
    </rect>
   </property>
   <property name="sizePolicy">
@@ -1101,6 +1101,12 @@
                    <verstretch>0</verstretch>
                   </sizepolicy>
                  </property>
+                 <property name="maximumSize">
+                  <size>
+                   <width>16777211</width>
+                   <height>16777215</height>
+                  </size>
+                 </property>
                  <property name="styleSheet">
                   <string notr="true">background-color: rgb(170, 255, 255);</string>
                  </property>
@@ -1124,7 +1130,10 @@
                   </sizepolicy>
                  </property>
                  <property name="styleSheet">
-                  <string notr="true">background-color: rgb(170, 255, 255);</string>
+                  <string notr="true">background-color: rgb(170, 255, 255);
+border-style: solid;
+border-width: 1px;
+border-color: black; </string>
                  </property>
                  <property name="text">
                   <string>Блок N</string>
@@ -1386,7 +1395,7 @@
            <property name="geometry">
             <rect>
              <x>0</x>
-             <y>-423</y>
+             <y>0</y>
              <width>100000</width>
              <height>100000</height>
             </rect>
